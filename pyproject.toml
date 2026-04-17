@@ -1,3 +1,13 @@
+[project]
+name = "mtglib"
+version = "0.1.0"
+description = "Local MTG card corpus and deck-building app built on Markdown source data."
+readme = "README.md"
+
+[project.urls]
+Homepage = "https://github.com/amerizalde/mtglib"
+Repository = "https://github.com/amerizalde/mtglib"
+
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 python_files = ["test_*.py"]

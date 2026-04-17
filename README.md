@@ -2,6 +2,8 @@
 
 MTGLib is a local Magic: The Gathering card corpus stored as plain Markdown, plus a lightweight app layer for browsing the corpus and experimenting with deck generation against it.
 
+Homepage: https://github.com/amerizalde/mtglib
+
 ## What It Is
 
 The repository centers on a checked-in `cards/` directory where each card is represented as a human-readable Markdown document with a stable structure. That corpus is paired with a small FastAPI backend and frontend so the data can be explored locally without needing a database or external service.
